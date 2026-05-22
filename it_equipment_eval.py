@@ -14,19 +14,21 @@ def encode_image_to_base64(image_path):
 
 
 def query_gemma3_vision(image_path, prompt=\
-    "Evaluate this image of an IT workspace or equipment setup. \
-    Criteria: \
-    1. Proper cable management (1 point) \
-    2. Clean and organized workspace (1 point) \
-    3. Equipment appears functional with no visible damage (1 point) \
-    Instructions: \
-    - Give score per criterion (0 or 1) \
-    - Compute total score out of 3 \
-    - Provide final evaluation: \
-        3 = EXCELLENT \
-        2 = ACCEPTABLE \
-        1 or below = NEEDS IMPROVEMENT \
-    - Provide a short explanation."):
+    "You are an IT equipment evaluator. Analyze the given image ONLY. \
+    Do NOT explain the code or the script. \
+    Evaluate the image based on the following criteria: \
+    1. Cable management (1 point) \
+    2. Workspace cleanliness (1 point) \
+    3. Equipment condition (no visible damage) (1 point) \
+    \
+    Output format STRICTLY: \
+    Cable Management: (0 or 1) \
+    Workspace Cleanliness: (0 or 1) \
+    Equipment Condition: (0 or 1) \
+    Total Score: X/3 \
+    Final Evaluation: EXCELLENT / ACCEPTABLE / NEEDS IMPROVEMENT \
+    \
+    Give a short explanation after the scores."):
 
     image_base64 = encode_image_to_base64(image_path)
 
