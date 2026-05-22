@@ -64,8 +64,8 @@ Each image is evaluated based on the following:
 
 | Image | Description |
 |------|------------|
-| `cable-management.jpg` | ✅ Proper cable management |
-| `cable-management-2.jpg` | ❌ Messy and unorganized setup |
+| <img src="images/cable-management.jpg" width="300"> | ✅ Proper cable management |
+| <img src="images/cable-management-2.jpg" width="300"> | ❌ Messy and unorganized setup |
 
 ---
 
