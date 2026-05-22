@@ -114,7 +114,6 @@ Notes
 - Ollama must be running before executing the script
 - Performance depends on hardware (CPU vs GPU)
 
-Author
-Jericho James C. Ranara
+Author: Jericho James C. Ranara
 
 
