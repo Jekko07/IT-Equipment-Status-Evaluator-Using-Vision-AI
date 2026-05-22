@@ -12,18 +12,22 @@ def encode_image_to_base64(image_path):
         encoded = base64.b64encode(image_file.read()).decode("utf-8")
     return encoded
 
+
 def query_gemma3_vision(image_path, prompt=\
-    "Evaluate the attached essay based on the following expectations: \
-    1. Talk about cultural practices of a particular country.\
-    2. Talk about the issues in the cultural practices.\
-    3. Provide your own opinion on the matter.\
-    Use the rubric below to give a score:\
-    90-100% (A): Exceptional work; demonstrates mastery of the assignment's objectives, using excellent grammar.\
-    80-89% (B): Solid work; demonstrates a good understanding and fulfills most requirements, with good grammar.\
-    70-79% (C): Satisfactory work; demonstrates an adequate understanding but may have some weaknesses, with some grammitcal problems.\
-    60-69% (D): Below average work; demonstrates a limited understanding and has significant weaknesses, with unacceptable grammatical errors.\
-    Below 60% (F): Unsatisfactory work; fails to meet the assignment's objectives; very problematic sentences unacceptable grammatical errors."):
-    
+    "Evaluate this image of an IT workspace or equipment setup. \
+    Criteria: \
+    1. Proper cable management (1 point) \
+    2. Clean and organized workspace (1 point) \
+    3. Equipment appears functional with no visible damage (1 point) \
+    Instructions: \
+    - Give score per criterion (0 or 1) \
+    - Compute total score out of 3 \
+    - Provide final evaluation: \
+        3 = EXCELLENT \
+        2 = ACCEPTABLE \
+        1 or below = NEEDS IMPROVEMENT \
+    - Provide a short explanation."):
+
     image_base64 = encode_image_to_base64(image_path)
 
     payload = {
