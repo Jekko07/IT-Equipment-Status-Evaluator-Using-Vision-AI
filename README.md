@@ -59,12 +59,31 @@ Each image is evaluated based on the following:
 
 ---
 
-## 📷 Sample Inputs
 
-- ✅ `cable-management.jpg` → Organized setup
-- ❌ `cable-management-2.jpg` → Messy setup
+## 📷 Sample Images
+
+| Image | Description |
+|------|------------|
+| `cable-management.jpg` | ✅ Proper cable management |
+| `cable-management-2.jpg` | ❌ Messy and unorganized setup |
 
 ---
+
+
+## 📸 Screenshots / Results
+
+### ✅ Image 1 — Proper Cable Management
+
+images/output-good.png
+
+**Result:**
+---
+
+### ❌ Image 2 — Poor Cable Management
+
+images/output-bad.png
+
+**Result:**
 
 ## ▶️ How to Run
 
