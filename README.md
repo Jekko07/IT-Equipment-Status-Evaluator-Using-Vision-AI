@@ -74,14 +74,15 @@ Each image is evaluated based on the following:
 
 ### ✅ Image 1 — Proper Cable Management
 
-images/output-good.png
+![Good Output](images/output-good.png)
 
 **Result:**
 ---
 
 ### ❌ Image 2 — Poor Cable Management
 
-images/output-bad.png
+
+![Bad Output](images/output-bad.png)
 
 **Result:**
 
