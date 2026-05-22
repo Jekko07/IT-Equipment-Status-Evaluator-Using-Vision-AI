@@ -134,6 +134,16 @@ Notes
 - Ollama must be running before executing the script
 - Performance depends on hardware (CPU vs GPU)
 
+
+🧠 Key Contribution
+This project demonstrates:
+
+✅ Vision-language AI usage
+✅ Multi-criteria evaluation
+✅ Structured scoring system
+✅ AI + rule-based hybrid approach
+
+---
 Author: Jericho James C. Ranara
 
 
