@@ -136,7 +136,7 @@ Notes
 
 
 🧠 Key Contribution
-This project demonstrates:
+- This project demonstrates:
 
 ✅ Vision-language AI usage
 ✅ Multi-criteria evaluation
